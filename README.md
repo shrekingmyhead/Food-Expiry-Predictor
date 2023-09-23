@@ -1,4 +1,4 @@
-# Fruit and Vegetable Dataset for Shelf Life
+# Fruit And Vegetable Shelf Life Predictor
 
 This repository contains a dataset for fruit and vegetable images along with code for a machine learning model and an expiration date prediction system.
 
