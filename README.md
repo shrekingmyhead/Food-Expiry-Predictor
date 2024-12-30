@@ -1,5 +1,7 @@
 # Fruit and Vegetable Shelf Life Predictor 🍎🥕
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 This repository contains a Streamlit app that predicts the **category** and **freshness** of fruits and vegetables using a pre-trained CNN model. The app allows users to either **upload a photo** or **take a picture using their camera** for prediction.
 
 ## Features
@@ -11,7 +13,7 @@ This repository contains a Streamlit app that predicts the **category** and **fr
 The dataset used to train the CNN model is available on Kaggle and can be found at the following link: [Fruit and Vegetable Dataset for Shelf Life](https://www.kaggle.com/datasets/your-dataset-link).
 
 The dataset is organized into categories, with each category representing a different type of fruit or vegetable. Each category further contains subdirectories for fresh and expired items. The dataset is structured as follows:
-
+```
 dataset/
     ├── category_1/
     │   ├── Fresh/
@@ -32,7 +34,7 @@ dataset/
     │   │   ├── image2.jpg
     │   │   └── ...
     ├── ...
-
+```
 ## Pre-trained Model
 The repository includes a pre-trained CNN model for classifying fresh and expired fruits and vegetables:
 - **cnnmodel.h5**: A pre-trained CNN model trained on the provided dataset.
